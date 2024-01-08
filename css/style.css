@@ -166,5 +166,69 @@ main{
     border: none;
     margin-top: 48px;
 }
-
 /* ==Venue part style end== */
+/* ==offer part start== */
+#offer_part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#offer_part .offer_left .new_offer{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#offer_part .offer_left .offer_title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0 22px;
+}
+
+#offer_part .offer_left .offer_details{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+}
+
+.offer_middle{
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    position: relative;
+}
+
+.offer_middle img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#offer_part .offer_right .offer_year{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#offer_part .offer_right .offer_details{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    margin: 16px 0 43px;
+}
+/* ==offer part end== */
