@@ -1,0 +1,89 @@
+/* ==common styles== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* ==common styles== */
+/* ==banner part style start== */
+#banner_part{
+    background: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    padding: 177px 344px;
+}
+
+#banner_part .banner_text{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+#banner_part .banner_description{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* ==banner part style end== */
+/* ==discount part start== */
+#discount_part{
+    margin: 120px 0;
+}
+
+#discount_part .discount_text{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+#discount_part .discount_details{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px 0 16px;
+}
+
+#discount_part .discount_catagory{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#discount_part img{
+    text-align: center;
+    margin-top: 48px;
+}
+
+/* ==discount part end== */
