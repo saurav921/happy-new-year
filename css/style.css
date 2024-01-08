@@ -29,7 +29,7 @@ main{
     background: url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-position: center;
-    /* background-size: cover; */
+    margin-top: 50px;
     padding: 177px 344px;
 }
 
@@ -81,9 +81,90 @@ main{
     font-weight: 700;
 }
 
-#discount_part img{
+#discount_part .discount_image{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+/* ==discount part end== */
+/* ==welcome part style start== */
+#welcome_part{
+    background: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 68px 140px 68px 125px;
+    display: flex;
+}
+
+#welcome_part .welcome_title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    margin-top: 60px;
+}
+
+#welcome_part .welcome_text{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    margin: 24px 0 48px;
+}
+
+#welcome_part .welcome_btn{
+    color: #FFF;
     text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+/* ==welcome part style end== */
+/* ==Venue part style start== */
+#venue_part{
+    background: #f8caca74;
+    margin: 120px 0;
+    text-align: center;
+    padding: 100px 0 110px;
+}
+
+#venue_part span{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+#venue_part .venue_details{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+#venue_part .venue_btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
     margin-top: 48px;
 }
 
-/* ==discount part end== */
+/* ==Venue part style end== */
