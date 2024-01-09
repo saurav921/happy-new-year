@@ -314,7 +314,57 @@ main{
     width: 424px;
     border-radius: 16px;
 }
-
-
-
 /* ==portfolio part end== */
+/* ==subscribe part style start== */
+#subscribe_part{
+    margin: 120px 0;
+}
+
+#subscribe_part .mail_image{
+    display: flex;
+    justify-content: center;
+}
+
+#subscribe_part .subscribe_title{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 40px 0 22px;
+}
+
+#subscribe_part .subscribe_description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#subscribe_part input{
+    padding: 25px 267px 25px 30px;
+    align-items: center;
+    border-radius: 50px 0 0 50px;
+}
+
+#subscribe_part .subscribe_button{
+    display: flex;
+    justify-content: center;
+    margin: 48px 0 80px;
+}
+
+#subscribe_part button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 24px 56px;
+    cursor: pointer;
+}
+/* ==subscribe part style end== */
