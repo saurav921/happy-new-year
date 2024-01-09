@@ -130,7 +130,7 @@ main{
 /* ==welcome part style end== */
 /* ==Venue part style start== */
 #venue_part{
-    background: #f8caca74;
+    background: linear-gradient(to bottom, #f7c4c4, #fadbdb5c);
     margin: 120px 0;
     text-align: center;
     padding: 100px 0 110px;
@@ -232,3 +232,89 @@ main{
     margin: 16px 0 43px;
 }
 /* ==offer part end== */
+/* ==sales part start== */
+#sales_part{
+    margin: 120px 0;
+}
+
+#sales_part .sales_text{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#sales_part .sales_title{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 16px 0 28px;
+}
+
+#sales_part .sales_description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+
+
+#sales_part .sales_container .sales_up{
+    display: flex;
+    justify-content: space-between;
+}
+/* 
+#sales_part .sales_container .sales_up .sales_gift{
+    position: absolute;
+} */
+
+#sales_part .sales_container .sales_up .sales_discount{
+    left: 0;
+}
+/* ==sales part end== */
+/* ==portfolio part start== */
+#portfolio_part h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#portfolio_part h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#portfolio_part p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin: 22px 0 48px;
+}
+
+#portfolio_part .portfolio_gift{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+#portfolio_part .portfolio_gift .gift{
+    width: 424px;
+    border-radius: 16px;
+}
+
+
+
+/* ==portfolio part end== */
