@@ -368,3 +368,56 @@ main{
     cursor: pointer;
 }
 /* ==subscribe part style end== */
+/* ==footer part style start== */
+#footer_part{
+    background: #070211;
+    padding: 120px;
+}
+
+#footer_part .footer_info{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 120px 0 98px; */
+}
+
+#footer_part .footer_info .adress p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+#footer_part .footer_info .contact{
+    margin-right: 150px;
+}
+
+#footer_part .footer_info .contact a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+#footer_part .icons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 98px 0;
+}
+
+#footer_part .copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer_part .restriction{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+/* ==footer part style end== */
