@@ -264,16 +264,32 @@ main{
     margin-bottom: 64px;
 }
 
-
-
 #sales_part .sales_container .sales_up{
     display: flex;
     justify-content: space-between;
 }
-/* 
+
 #sales_part .sales_container .sales_up .sales_gift{
+    position: relative;
+}
+
+#sales_part .sales_container .sales_up .sales_gift .gift{
     position: absolute;
-} */
+    width: 600px;
+    top: 110px;
+    left: 85px;
+}
+
+#sales_part .sales_container .sales_up .sales_discount{
+    position: relative;
+}
+
+#sales_part .sales_container .sales_up .discount{
+    position: absolute;
+    left: -35%;
+    top: 9%;
+}
+
 
 #sales_part .sales_container .sales_up .sales_discount{
     left: 0;
